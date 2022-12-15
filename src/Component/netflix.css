@@ -1,117 +1,80 @@
-body{
-    height: 100vh;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    /* background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSBzxPty4EzVxvZlUquK18x_qGEzAOwA0TmZLL0qzkPyFzFPufLugrs6skDPq2E_q1NyiA&usqp=CAU") no-repeat; */
-    background: url("https://img.buzzfeed.com/store-an-image-prod-us-east-1/4cl5xHWL.png?output-format=jpg&output-quality=auto") no-repeat;
-    background-size: cover;
+body {
+    background: url("https://www.filmibeat.com/img/2021/12/netflix11-1639468647.jpg");
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-.container{
-    position: relative;
-    width: 295px;
-    height: 500px;
-    background: #121212;
-    border-radius: 20px;
-    box-shadow: 0 6px 20px rgba(0 , 0,0,.4 );
-    overflow: hidden;
-}
-.bg-img{
-    position: absolute;
-    top: -70px;
-    width: 100%;
-    height: 300px;
-    background: url("https://s.abcnews.com/images/Technology/GTY_audience_watch_horror_movie_jt_140621_16x9_992.jpg")center / cover; 
-    /* background: url("https://s3.amazonaws.com/static.rogerebert.com/uploads/review/primary_image/reviews/wrong-turn-movie-review-2021/wrong-turn-movie-review-2021.jpeg")center / cover; */
-}
-.container::before{
-    content: "";
-    position: absolute;
-    width: 100%;
-    height: 100%;
-    z-index: 1;
-    background: linear-gradient(to top,#121212 65%,trasparent);
-}
-.content{
-    position: absolute;
-    bottom: 0;
-    z-index: 2;
-    width: 100%;
-    height: 330px;
-    display: flex;
-    flex-direction: column;
-    justify-content: space-evenly;
-    align-items: center;
-    font-family: 'popins',sans-serif;
+
+* {
+    font-family: 'Inter', sans-serif;
 
 }
-form{
+
+.card {
+    background-color: rgba(0, 0, 0, 0.9);
+    height: 540px;
+    width: 400px;
+    border: none;
+}
+
+.signup-container {
+    display: flex;
+    justify-content: center;
+
+    height: 100vh;
+    align-items: center;
+}
+
+.title {
+    text-align: center;
+    color: aliceblue;
+}
+
+.btn {
+    background-color: #e50914;
+    color: burlywood;
+    border: none;
+    padding: 15px;
+}
+
+.input-group {
+    display: flex;
+    justify-content: space-between;
+    padding: 20px 50px;
+}
+
+.button-container {
+    display: flex;
+    justify-content: flex-end;
+    padding-right: 50px;
+}
+
+.btn {
+    color: aliceblue;
     width: 260px;
-    height: 200px;
+    padding: 15px;
+    border: none;
+    margin: 15px;
+}
+
+.inputt {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    margin: 15px;
+    background-color: rgb(90, 82, 82);
+
+}
+
+.inputt1 {
+    width: 200px;
+    padding: 15px;
+    border: none;
+    margin: 15px;
+    background-color: rgb(90, 82, 82);
+
+}
+
+.mid-session {
     display: flex;
     flex-direction: column;
-    justify-content: space-evenly;
-}
-form input button{
-border: none;
-height: 40px;
-outline: none;
-border-radius: 2px;
-}
-form input{
-    width: 260px;
-    margin: 5px 0;
-    background: #333333;
-    padding: 0 10px;
-}
-form input::placeholder{
-    font-family: 'popins' ,sans-serif;
-}
-form button{
-    background: #e50813;
-    color: #fff;
-    font-size: 16px;
-    font-weight: bolder;
-    font-family: 'popins',sans-serif;
-}
-.content p{
-    width: 200px;
-    color: #737373;
-    font-size: 13px;
-}
-.content p  a{
-text-decoration: none;
-color: #fff;
-}
-.inputt{
-    width: 260px;
-    margin: 5px 0;
-    background: #333333;
-    padding: 0 10px;
-    height: 35px;
-}
-/* .btn{
-    width: 260px;
-    margin: 5px 0;
-    background: #e50813;
-    padding: 0 10px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-} */
-.btn{
-    width: 260px;
-    margin: 5px 0;
-    background: #e50813;
-    padding: 0 10px;
-    height: 35px;
-    display: flex;
-    justify-content: center;
-    
+    align-items: center;
 
 }

@@ -7,11 +7,11 @@ import NetflixTitle from './NetflixTitle'
 
 export default function NetflixForm() {
     return (
-        <div className='container' >
-            <div className=''>
+        <div className='signup-container' >
+            <div className='card'>
                 <NetflixTitle />
                 <NetflixParagraph />
-                <NetflixButton />
+                {/* <NetflixButton /> */}
             </div>
         </div>
     )
