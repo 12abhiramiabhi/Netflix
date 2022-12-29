@@ -18,7 +18,7 @@ export default function NetflixParagraph() {
             <input type="password" name='password' placeholder='password' className="inputt" onChange={(e) => { setPassword(e.target.value) }} />
             
             <div>
-                <div className='button-container'>
+                <div className='button-container'> 
                     <button className='btn' onClick={ClickSigin}>sign in</button>
                 </div>
                  {/* <p className='para3' >remember me</p> <a href="#" className='a3' >need help?</a> */}

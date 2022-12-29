@@ -11,7 +11,8 @@ export default function NetflixForm() {
             <div className='card'>
                 <NetflixTitle />
                 <NetflixParagraph />
-                {/* <NetflixButton /> */}
+                {/* <NetflixButton />  */}
+                {/* <NavBar /> */}
             </div>
         </div>
     )
