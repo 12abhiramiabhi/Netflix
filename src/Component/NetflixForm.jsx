@@ -15,5 +15,6 @@ export default function NetflixForm() {
                 {/* <NavBar /> */}
             </div>
         </div>
+
     )
 }
